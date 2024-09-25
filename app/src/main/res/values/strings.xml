@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Tugas</string>
+    <string-array name="daftar_mhs">
+        <item>Mohammad Solli</item>
+        <item>arief</item>
+        <item>deden</item>
+        <item>sagita</item>
+        <item>wahyu</item>
+        <item>reyhan</item>
+        <item>alex</item>
+        <item>alief</item>
+        <item>reo</item>
+        <item>dendi</item>
+        <item>faris</item>
+        <item>kholit</item>
+        <item>akbar</item>
+        <item>mafei</item>
+        <item>tyo</item>
+        <item>aziz</item>
+    </string-array>
+</resources>
