@@ -27,7 +27,7 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main); // Ensure this matches your layout file name
 
-        // Initialize UI components
+
         editTextName = findViewById(R.id.editTextName);
         editTextUsername = findViewById(R.id.editTextUsername); // Initialize username field
         editTextEmail = findViewById(R.id.editTextEmail);
@@ -39,7 +39,7 @@ public class RegisterActivity extends AppCompatActivity {
         radioGroupGender = findViewById(R.id.radioGroupGender);
         btnRegister = findViewById(R.id.btnRegister);
 
-        // Date of Birth selection
+
         editTextDob.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,7 +47,7 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-        // Register button click listener
+     r
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -104,9 +104,9 @@ public class RegisterActivity extends AppCompatActivity {
                 intent.putExtra("Alamat", address);
                 intent.putExtra("jenis", gender);
 
-                // Start LoginActivity
+
                 startActivity(intent);
-                finish();  // Close RegisterActivity
+                finish();
 
             } else {
                 Toast.makeText(RegisterActivity.this, "Passwords do not match", Toast.LENGTH_SHORT).show();

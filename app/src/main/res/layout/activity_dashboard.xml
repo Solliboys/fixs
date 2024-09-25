@@ -19,5 +19,4 @@
         android:layout_height="68dp"
         android:textAlignment="textStart" />
 
-    <!-- Add more UI elements as needed, like buttons or images -->
 </LinearLayout>

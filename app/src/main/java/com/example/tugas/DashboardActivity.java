@@ -14,12 +14,11 @@ public class DashboardActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_dashboard); // Ensure this layout file exists and contains textViewProfile
+        setContentView(R.layout.activity_dashboard);
 
-        // Initialize TextView
+
         textViewProfile = findViewById(R.id.textViewProfile);
 
-        // Get data from Intent sent by RegisterActivity
         Intent intent = getIntent();
         String name = intent.getStringExtra("nama");
         String email = intent.getStringExtra("email");
@@ -27,10 +26,10 @@ public class DashboardActivity extends AppCompatActivity {
         String address = intent.getStringExtra("Alamat");
 
 
-        // Log the received data for debugging purposes
+
         Log.d("DashboardActivity", "Received data: " + name + ", " + email + ", " + ", " + phone + ", " + address );
 
-        // Create the profile information string and display it in textViewProfile
+
         String profileInfo =
                 "Nama   : " + (name != null ? name : "N/A") + "\n" +
                 "Email  : " + (email != null ? email : "N/A") + "\n" +
