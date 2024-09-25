@@ -20,7 +20,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:paddingBottom="20dp"
-            android:text="Register"
+            android:text="Register Rawr"
             android:textSize="24sp"
             android:textStyle="bold" />
 
